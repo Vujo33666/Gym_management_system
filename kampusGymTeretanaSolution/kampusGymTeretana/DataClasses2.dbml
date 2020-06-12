@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="kampusgym" Class="DataClasses2DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-UNFIPTJ\SQLEXPRESS;Initial Catalog=kampusgym;Integrated Security=True" SettingsObjectName="kampusGymTeretana.Properties.Settings" SettingsPropertyName="kampusgymConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.tblInvertar" Member="tblInvertars">
+    <Type Name="tblInvertar">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="sprava" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="kolicina" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>

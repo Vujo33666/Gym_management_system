@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="kampusgym" Class="DataClasses4DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-UNFIPTJ\SQLEXPRESS;Initial Catalog=kampusgym;Integrated Security=True" SettingsObjectName="kampusGymTeretana.Properties.Settings" SettingsPropertyName="kampusgymConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.tblZaposlenici" Member="tblZaposlenicis">
+    <Type Name="tblZaposlenici">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ime" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="prezime" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="email" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="mobitel" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="datum_rodenja" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="slika" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="id_zaposlenika" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>
